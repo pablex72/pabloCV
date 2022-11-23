@@ -1,0 +1,197 @@
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}  
+
+.top-area { 
+    width: 80%;
+    margin: 10px auto;
+}
+
+.top-area .head{
+    width: 100%;
+    height: 150px;
+    background-color:rgb(89, 158, 155);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.head img{
+    width:20%;
+    height:180px;
+    border-radius:10%;
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    border: 10px solid rgb(154, 231, 212);
+    box-decoration-break: 3px 3px 5px rgb(136, 220, 235);
+}
+
+.head-text{
+    color: rgb(207, 201, 201);
+    width: 90%;
+    margin-left: auto;
+    text-align: center;
+}
+
+.head-text h1{
+
+    font-size: 50px;
+    font-weight: bolder;
+    margin: auto;
+    text-align: center;
+}
+
+.head-text h2{
+    font-size: 30px;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left{
+    width: 30%;
+    background-color:aliceblue;
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.left .contact{
+    margin-top: 50px;
+    padding: 0 30px;
+}
+
+.contact h4{
+    font-size: 30px;
+    font-weight: normal;
+    margin: 20px;
+}
+
+.contact h5{
+    font-size: 18px;
+    margin: 10px;
+}
+.contact p{
+    font-size: 17px;
+}
+.skills{
+    margin-bottom: 10px;
+}
+.skills h1{
+    font-size: 30px;
+    font-weight: normal;
+}
+.levels{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:20px 10px;
+    padding: 0 20px;
+}
+
+.levels .level p{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.skills h1{
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.skills h4{
+    font-size: 18px;
+    margin: 10px;
+}
+
+.skills p{
+    font-size: 15px;
+    color: darkolivegreen;
+}
+
+.right{
+    width: 65%;
+    padding: 20px 20px;
+}
+.right h1{
+    font-size: 35px;
+    font-weight:bold;
+}
+
+.right h1 span{
+    margin-right: 30px;
+    font-size: 50px;
+    color: lightpink;
+}
+
+.right p{
+    padding-left: 70px;
+    text-align: justify;
+    word-break:keep-all;
+    font-size: 17px;
+    color: rgb(11, 105, 82);
+    margin-top: 10px;
+}
+
+.work-group{
+    margin: 1px;
+}
+
+.work .work-group{
+    position: relative;
+}
+
+.work-group h3{
+    font-size: 22px;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-bottom: 10px;
+}
+
+.work-group h4{
+    font-size: 18px;
+    padding-left: 70px;
+    font-weight: normal;
+    color: rgb(61, 152, 182);
+}
+
+.education{
+    margin-top: 1px;
+}
+
+.education-group{
+    position: relative;
+    margin: 1px;
+}
+
+.education-group h3{
+    font-size: 22px;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-left: 70px;
+}
+
+.education-group h4{
+    padding-top: 8px;
+    font-size: 18px;
+    padding-left: 70px;
+    font-weight: normal;
+    color: rgb(61, 152, 182);
+}
+
+
+.education-group p{
+    padding-left: 80px;
+}
